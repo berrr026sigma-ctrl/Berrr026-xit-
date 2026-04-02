@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>BERRR026 XIT - HR7</title>
+
+<style>
+body{
+background:#0a0f1f;
+font-family:Arial;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.panel{
+width:350px;
+background:#111a3a;
+border:2px solid #00aaff;
+border-radius:10px;
+box-shadow:0 0 20px #00aaff;
+padding:15px;
+}
+
+.title{
+text-align:center;
+font-size:20px;
+color:#00ccff;
+margin-bottom:10px;
+}
+
+button{
+width:100%;
+padding:10px;
+margin-top:8px;
+border:none;
+border-radius:5px;
+background:#0099ff;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#00c3ff;
+}
+
+.option{
+margin-top:10px;
+}
+
+input[type=range]{
+width:100%;
+}
+
+label{
+font-size:14px;
+}
+
+.status{
+text-align:center;
+margin-top:10px;
+color:#00ffcc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="panel">
+
+<div class="title">🔥 BERRR026 XIT 🔥<br>HR7 Nunezl</div>
+
+<button onclick="entrar()">Entrar no Free Fire</button>
+
+<div class="option">
+<label>Aimbot (visual)</label>
+<input type="range" min="0" max="100">
+</div>
+
+<div class="option">
+<label>ESP (visual)</label>
+<input type="range" min="0" max="100">
+</div>
+
+<div class="option">
+<label>No Recoil (visual)</label>
+<input type="range" min="0" max="100">
+</div>
+
+<div class="option">
+<label>Aim Lock (visual)</label>
+<input type="range" min="0" max="100">
+</div>
+
+<div class="option">
+<label>Aim FOV (visual)</label>
+<input type="range" min="0" max="100">
+</div>
+
+<button onclick="ativar()">Ativar Funções</button>
+
+<div class="status" id="status">Painel pronto</div>
+
+</div>
+
+<script>
+
+function entrar(){
+document.getElementById("status").innerText =
+"Abrindo jogo... (simulação)";
+}
+
+function ativar(){
+document.getElementById("status").innerText =
+"Funções ativadas (visual apenas)";
+}
+
+</script>
+
+</body>
+</html>
